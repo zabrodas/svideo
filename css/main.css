@@ -1,0 +1,61 @@
+* {
+    border: 0 none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.maincontent {
+    background: white;
+    position: absolute;
+}
+
+#player {
+    box-shadow: 0.2em 0.2em 0.2em rgba(122,122,122,0.5);
+    border: 1px solid cornsilk;
+    background: gray;
+}
+
+#closePlayerButton {
+    padding: 0.5em;
+    border-radius: 0.2em;
+    box-shadow: 0.1em 0.1em 0.1em rgba(122,122,122,0.5);
+}
+
+#playlist {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.videothumb {
+    width: 16em;
+    height: 9em;
+    display: inline-block;
+    margin: 0.5em;
+    border: solid gray 1px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border: 1px solid cornsilk;
+    border-radius: 0.2em;
+    box-shadow: 0.1em 0.1em 0.1em rgba(122,122,122,0.5);
+}
+.videothumb:hover {
+    cursor: pointer;
+}
+
+#topInfo {
+    font-size: x-large;
+    text-align: center;
+    border: 1px blue solid;
+    background-color: #e0ffff;
+    padding: 1em;
+    border-radius: 1em;
+}
+#topInfo p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}

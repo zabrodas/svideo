@@ -1,0 +1,31 @@
+﻿body {
+    overflow: hidden hidden;
+}
+
+.maincontent {
+
+}
+
+#navigator {
+    background-color:azure;
+    overflow-y: scroll;
+    overflow-x: clip;
+}
+
+#viewer {
+    background-color: lightgoldenrodyellow;
+    overflow-x: clip;
+    overflow-y: clip;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.thumb img {
+    border: 2px solid azure;
+}
+
+.thumb:focus img {
+    border: 2px solid blue;
+}
+
